@@ -1,3 +1,4 @@
 # Specify line endings for yarn.lock
 yarn.lock text eol=lf
 package.json text eol=lf
+.gitignore text eol=lf
