@@ -1,0 +1,2 @@
+# Specify line endings for yarn.lock
+* text eol=crlf
