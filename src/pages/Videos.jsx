@@ -20,7 +20,7 @@ export default function Videos() {
 
   // 데이터 로딩이나 에러 발생 시 에러 메시지 표시
   if (error) {
-    return <p>Something is wrong</p>;
+    return <p>Something is wrong 😅</p>;
   }
 
   return (
