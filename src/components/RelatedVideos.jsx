@@ -16,7 +16,7 @@ export default function RelatedVideos({ id }) {
       {isLoading && <p>Loading...</p>}
       {error && <p>Something is wrong 😅</p>}
       {videos && (
-        <ul>
+        <ul className='ml-2'>
           {videos.map((video) => (
             <VideoCard key={video.id} video={video} type='list' />
           ))}
