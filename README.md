@@ -2,7 +2,7 @@
 
 ## 배포 링크
 
-In the project directory, you can run:
+https://spontaneous-gingersnap-b87e4e.netlify.app/
 
 ## 프로젝트 소개
 
@@ -17,3 +17,5 @@ React.js 기반의 유튜브 클론코딩 프로젝트 입니다.
 - 검색 - 키워드에 해당하는 동영상들 보여주기
 
 ## 회고
+
+https://velog.io/@alsrl1371
