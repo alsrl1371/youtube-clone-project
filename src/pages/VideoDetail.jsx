@@ -19,7 +19,7 @@ export default function VideoDetail() {
           style={{ minHeight: '600px' }}
           src={`http://www.youtube.com/embed/${video.id}`}
           title={video.title}
-          frameborder='0'
+          frameBorder='0'
         />
         <div className='p-8'>
           <h2 className='text-xl font-bold'>{title}</h2>
