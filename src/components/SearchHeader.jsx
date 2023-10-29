@@ -17,15 +17,18 @@ export default function SearchHeader() {
         <BsYoutube className='mt-2 text-4xl text-brand' />
         <h1 className='ml-2 text-3xl font-bold'>Youtube</h1>
       </Link>
-      <form className='flex justify-center w-full' onSubmit={handleSubmit}>
+      <form
+        className='flex items-center justify-center w-full'
+        onSubmit={handleSubmit}
+      >
         <input
-          className='w-7/12 p-2 bg-black outline-none text-gray-50'
+          className='text-lg w-7/12 h-10 py-3 px-2 pl-[16px] bg-black rounded-l-full outline-none text-gray-50 border border-black  focus:border-blue-600'
           type='text'
-          placeholder='Search...'
+          placeholder='Search..'
           value={text}
           onChange={(e) => setText(e.target.value)}
         ></input>
-        <button className='px-4 bg-zinc-600'>
+        <button className='flex items-center h-10 px-4 py-3 transition duration-100 ease-in-out rounded-r-full bg-zinc-600 hover:bg-blue-600'>
           <BsSearch />
         </button>
       </form>

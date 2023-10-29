@@ -1,5 +1,0 @@
-# Specify line endings for yarn.lock
-* text eol=crlf
-package.json text eol=crlf
-tailwind.config.js text eol=crlf
-yarn.lock text eol=crlf

@@ -11,7 +11,9 @@ export default function Videos() {
     isLoading,
     error,
     data: videos,
-  } = useQuery(['videos', keyword], () => youtube.search(keyword));
+  } = useQuery(['videos', keyword], () => youtube.search(keyword), {
+    staleTime: 1000 * 60 * 1,
+  });
 
   // 데이터가 아직 로딩 중이면 Loading 표시
   if (isLoading) {
@@ -25,9 +27,8 @@ export default function Videos() {
 
   return (
     <>
-      <div>Videos {keyword ? `🔍${keyword}` : '✨'}</div>
       {videos && (
-        <ul className='grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-y-4'>
+        <ul className='grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-y-4'>
           {videos.map((video) => (
             <VideoCard key={video.id} video={video} />
           ))}
