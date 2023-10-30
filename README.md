@@ -2,7 +2,7 @@
 
 ## 배포 링크
 
-https://spontaneous-gingersnap-b87e4e.netlify.app/
+https://alsrl1371-youtube.netlify.app/
 
 ## 프로젝트 소개
 
