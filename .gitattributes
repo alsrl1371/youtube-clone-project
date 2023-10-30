@@ -7,3 +7,5 @@ README.md eol=crlf
 tailwind.config.js eol=crlf
 .yarnrc.yml eol=crlf
 .yarn/install-state.gz eol=crlf
+public/favicon.ico eol=crlf
+public/index.html eol=crlf
