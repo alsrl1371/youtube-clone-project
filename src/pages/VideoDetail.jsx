@@ -17,7 +17,7 @@ export default function VideoDetail() {
           width='100%'
           height='auto'
           style={{ minHeight: '600px' }}
-          src={`http://www.youtube.com/embed/${video.id}`}
+          src={`https://www.youtube.com/embed/${video.id}`}
           title={video.title}
           frameBorder='0'
         />
